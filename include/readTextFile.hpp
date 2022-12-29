@@ -1,11 +1,3 @@
-﻿/**
-* @file				readTextFile.hpp
-* @description		iki yönlü Bağıl Liste.
-* @course			1B-12
-* @assignment		1
-* @date				8/11/2021
-* @author			MHD NOUR ALKHALAF
-*/
 
 
 #include <iostream>
