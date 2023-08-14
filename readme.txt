@@ -1,4 +1,3 @@
-
 # Doubly Linked List with MinGW C++
 
 This project showcases a C++ application using MinGW to demonstrate operations on a doubly linked list. It primarily processes data from a `Veri.txt` file to perform actions on the list.
@@ -20,28 +19,25 @@ A pivotal aspect is that the doubly linked list should mimic array behavior. Ele
 1. **Clone the Repository**
    ```bash
    git clone <repository-url>
-   ```
+Navigate to Directory
 
-2. **Navigate to Directory**
-   ```bash
-   cd <repository-directory>
-   ```
+bash
+Copy code
+cd <repository-directory>
+Compile with MinGW
 
-3. **Compile with MinGW**
-   ```bash
-   g++ source.cpp -o output
-   ```
+bash
+Copy code
+g++ source.cpp -o output
+Run the Program
 
-4. **Run the Program**
-   ```bash
-   ./output
-   ```
-
+bash
+Copy code
+./output
 The modified list gets printed, showcasing the operations performed.
 
-## 🚫 Assumptions
-
-- The program handles large files.
-- The input won't have more delete operations than additions.
-- Absence of delete commands when the list is empty.
-- Always expect a consistent input file.
+🚫 Assumptions
+The program handles large files.
+The input won't have more delete operations than additions.
+Absence of delete commands when the list is empty.
+Always expect a consistent input file.
