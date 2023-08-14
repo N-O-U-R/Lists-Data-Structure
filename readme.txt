@@ -1,43 +1,34 @@
-# Doubly Linked List with MinGW C++
+# 📚 Doubly Linked List Operations
 
-This project showcases a C++ application using MinGW to demonstrate operations on a doubly linked list. It primarily processes data from a `Veri.txt` file to perform actions on the list.
+This repository demonstrates operations on a doubly linked list using MinGW C++.
 
-## 📖 Description
+## 🔍 Overview
 
-Upon initialization, the program reads from `Veri.txt`, a file that outlines operations and associated data. This file contains line-by-line instructions to either add to or remove from the list:
+- **Read**: Initializes by reading from `Veri.txt`.
+- **Add**: Inserts data into the list at the specified index.
+- **Delete**: Removes data from the list based on the provided index.
+  
+![Linked List Illustration]
 
-- **Addition**: Specified by `E(INDEX#DATA)`, e.g., `E(2#Mehmet Can)`.
-  - Here, "E" denotes the addition, and the data `Mehmet Can` should be added at the 2nd index. If the index is not present, the program appends data to the list's end.
+## 🚀 Getting Started
 
-- **Deletion**: Denoted by `S(INDEX)`, such as `S(3)`.
-  - "S" signifies deletion, intending to remove the data at the 3rd index. If the index doesn't exist, the program removes the list's last element.
+1. **Clone the Repository**:
+    ```bash
+    git clone https://github.com/N-O-U-R/Lists-Data-Structure
+    ```
 
-A pivotal aspect is that the doubly linked list should mimic array behavior. Elements are added or removed as if shifting in an array.
+2. **Compile & Run**:
+    ```bash
+    g++ source.cpp -o output && ./output
+    ```
 
-## 🚀 Setup & Execution
+## ✏️ Notes
 
-1. **Clone the Repository**
-   ```bash
-   git clone <repository-url>
-Navigate to Directory
+- Large files are supported.
+- Assumes a consistent input file.
 
-bash
-Copy code
-cd <repository-directory>
-Compile with MinGW
+## 🤝 Contribute
 
-bash
-Copy code
-g++ source.cpp -o output
-Run the Program
+Feel free to raise issues or submit PRs. Your contributions are welcome!
 
-bash
-Copy code
-./output
-The modified list gets printed, showcasing the operations performed.
-
-🚫 Assumptions
-The program handles large files.
-The input won't have more delete operations than additions.
-Absence of delete commands when the list is empty.
-Always expect a consistent input file.
+❤️ Made with passion. Please leave a ⭐ if you find this useful!
